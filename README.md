@@ -2,11 +2,11 @@
 유저가 추천받고 싶은 동아리의 특징을 입력하면, 적절한 동아리를 추천해주는 챗봇
 
 # Dataset
-대학생 커뮤니티인 [에타(에브리타임)](https://everytime.kr/)의 동아리/학회 게시판에 올라와 있는 동아리 홍보글 400개 가량 수집하고, 동아리 추천에 필요하다고 생각되는 정보만 별도로 가공하여 사용.
+- 대학생 커뮤니티인 [에타(에브리타임)](https://everytime.kr/)의 동아리/학회 게시판에 올라와 있는 동아리 홍보글 400개 가량 수집하고, 동아리 추천에 필요하다고 생각되는 정보만 별도로 가공하여 사용.
 
-23.07.31 ~ 23.10.01 사이에 업로드된 게시글을 수집.
+- 23.07.31 ~ 23.10.01 사이에 업로드된 게시글을 수집.
 
-<img src="image/everytime.png"/>
+<img src="image/everytime.png" width="500px" height="350px"/>
 
 ### 데이터 가공 시 포함한 Column
 - union_name : 동아리 이름
@@ -19,25 +19,25 @@
 # 프레임워크 및 라이브러리
 
 ### LangChain
-챗봇 제작에 용이한 다양한 기능을 제공하는 프레임워크
+- 챗봇 제작에 용이한 다양한 기능을 제공하는 프레임워크
 
-<img src="image/LangChain.png"/>
+<img src="image/LangChain.png" width="500px" height="250px"/>
 
 ### FAISS
-벡터 간의 유사도 검색 기능을 제공하는 벡터스토어 라이브러리
+- 벡터 간의 유사도 검색 기능을 제공하는 벡터스토어 라이브러리
 
-<img src="image/FAISS.png"/>
+<img src="image/FAISS.png" width="500px" height="250px"/>
 
 # 임베딩 모델
 
 ### KR-SBERT (snunlp/KR-SBERT-V40K-klueNLI-augSTS)
-동아리 데이터에 담긴 정보를 벡터화 하여 벡터 공간 상에 매칭시켜주는 모델
+- 동아리 데이터에 담긴 정보를 벡터화 하여 벡터 공간 상에 매칭시켜주는 모델
 
-<img src="image/KR-SBERT.png"/>
+<img src="image/KR-SBERT.png" width="500px" height="250px"/>
 
 # 모델 구조도
 
-<img src="image/model_structure.png"/>
+<img src="image/model_structure.png" width="700px" height="250px"/>
 
 ### 시스템 플로우
 
@@ -50,4 +50,4 @@
 
 # 결과
 
-<img src="image/Result.png"/>
+<img src="image/Result.png" width="1000px" height="450px"/>
